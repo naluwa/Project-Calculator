@@ -1,11 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+int functionadd(int a, int b);
+int functionsub(int a, int b);
+int functionmulti(int a, int b);
+int functiondivision(int a, int b);
+int functionexpo(int a, int b);
+int functionFact(int a);
 
 int main()
 {
-    int choice;
+    int choice,result,a,b;
     printf("------Calculator Menu------\n\n");
     printf("1.Addition\n");
     printf("2.Subtraction\n");
