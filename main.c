@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int functionadd(int a, int b);
-int functionsub(int a, int b);
-int functionmulti(int a, int b);
-int functiondivision(int a, int b);
-int functionexpo(int a, int b);
+int functionAdd(int a, int b);
+int functionSub(int a, int b);
+int functionMulti(int a, int b);
+int functionDivi(int a, int b);
+int functionExpo(int a, int b);
 int functionFact(int a);
 
 int main()
@@ -26,10 +26,13 @@ int main()
     do {
             switch(choice){
         case 1:
+
             break;
         case 2:
+
             break;
         case 3:
+
             break;
         case 4:
             break;
